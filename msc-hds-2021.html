@@ -40,23 +40,40 @@
         
         <h4>Clinical Prediction models</h4>
         
-        You should familiarise yourself with the following statistical concepts:
+        You should familiarise yourself with the following statistical concepts and the implementation of these for simple analyses in R or Python (scikit-learn) using simulated data:
         <ul>
           <li>Regression analysis</li>
           <li>Logistic regression</li>
           <li>Generalised linear models</li>
           <li>Variable selection including shrinkage</li>
-        </ul>        
+        </ul>
+        
+        Next, you should consider the clinical risk prediction model papers listed below, identify a suitable example (with available data) and attempt to reproduce the results.
         
         <h4>Cloud-based machine learning</h4>
+        
+        You should next learn how to implement the same models in an AutoML environment. Microsoft Azure Cloud is recommended as there are student accounts provided. 
+        
+        You will first learn to use the system using the tutorials. Make frequent notes. <b>No supervisory guidance will be provided for this.</b> 
+        This is because the purpose of the project is to understand how easy (or not) it is to use such platforms to develop prediction models given that you have the expertise to do so in standard environments.
+        You should document the features of the environment as part of your dissertation and explain where it differs or is similar to existing development environments.  
+        
         <ul> 
           <li><a href="https://docs.microsoft.com/en-us/azure/machine-learning/">Microsoft Azure Machine Learning Tutorials</a></li>
           <li><a href="https://docs.microsoft.com/en-us/azure/machine-learning/tutorial-auto-train-models">Use automated machine learning to predict taxi fares</a></li>
         </ul>    
         
+        You will then undertake a systematic comparison between the same model implemented in standard R/Python versus using the AutoML platform.
+        
         <h4>Objective</h4>
         
         If I construct a prediction algorithm in R/Python, how quickly can I replicate that design and results using an AutoML platform? 
+        
+        Things to consider:
+        <ul>
+          <li>What metrics will you use to measure the performance of the prediction algorithms? You will need to consider the train-test-deployment regime.</li>
+          <li>What will you measure to quantify development time in each environment? e.g. number of lines of code, man hours, debugging time?</li>
+        </ul>
         
         <h4>References</h4>
 
